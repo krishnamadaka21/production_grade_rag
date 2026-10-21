@@ -1,0 +1,20 @@
+[
+  {
+    "id": "test_001",
+    "question": "Why did Bhallaladeva want to kill Amarendra Baahubali?",
+    "reference_answer": "Bhallaladeva feared that Amarendra Baahubali would remain a threat to his power because the people loved him.",
+    "relevant_chunk_ids": []
+  },
+  {
+    "id": "test_002",
+    "question": "Why did Kattappa kill Amarendra Baahubali?",
+    "reference_answer": "Kattappa killed Amarendra Baahubali because he was ordered to do so and felt bound by his duty to the royal family.",
+    "relevant_chunk_ids": []
+  },
+  {
+    "id": "test_003",
+    "question": "Who was Mahendra Baahubali?",
+    "reference_answer": "Mahendra Baahubali was the son of Amarendra Baahubali and Devasena. He grew up as Shivudu without knowing his royal identity.",
+    "relevant_chunk_ids": []
+  }
+]

@@ -79,25 +79,25 @@ class DenseRetriever:
 # TEST
 # ============================================================
 
-if __name__ == "__main__":
-
-    retriever = DenseRetriever(top_k=5)
-
-    try:
-        query = "Why did Kattappa kill Baahubali?"
-
-        print(f"\nQuery: {query}")
-        print("=" * 60)
-
-        results = retriever.retrieve(query)
-
-        for rank, result in enumerate(results, start=1):
-
-            print(f"\nRank: {rank}")
-            print(f"Chunk ID: {result['id']}")
-            print(f"Page: {result['page']}")
-            print(f"Dense Score: {result['score']:.4f}")
-            print(f"Text: {result['text'][:300]}...")
-
-    finally:
-        retriever.close()
+# if __name__ == "__main__":
+#
+#     retriever = DenseRetriever(top_k=5)
+#
+#     try:
+#         query = "Why did Kattappa kill Baahubali?"
+#
+#         print(f"\nQuery: {query}")
+#         print("=" * 60)
+#
+#         results = retriever.retrieve(query)
+#
+#         for rank, result in enumerate(results, start=1):
+#
+#             print(f"\nRank: {rank}")
+#             print(f"Chunk ID: {result['id']}")
+#             print(f"Page: {result['page']}")
+#             print(f"Dense Score: {result['score']:.4f}")
+#             print(f"Text: {result['text'][:300]}...")
+#
+#     finally:
+#         retriever.close()

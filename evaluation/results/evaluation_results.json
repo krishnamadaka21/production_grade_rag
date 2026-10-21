@@ -1,0 +1,173 @@
+[
+  {
+    "id": "test_001",
+    "question": "Why did Bhallaladeva want to kill Amarendra Baahubali?",
+    "answer": "Bhallaladeva wanted to kill Amarendra Baahubali because Baahubali was a threat to his power; as long as Baahubali lived, Bhallaladeva feared he would remain a potential challenge to his rule.",
+    "latency_seconds": 13.315,
+    "retrieved_chunk_ids": [
+      "16",
+      "22",
+      "18",
+      "30",
+      "17"
+    ],
+    "sources": [
+      {
+        "page": 3,
+        "chunk_id": 16
+      },
+      {
+        "page": 4,
+        "chunk_id": 22
+      },
+      {
+        "page": 3,
+        "chunk_id": 18
+      },
+      {
+        "page": 6,
+        "chunk_id": 30
+      },
+      {
+        "page": 3,
+        "chunk_id": 17
+      }
+    ],
+    "search_query": "Why did Bhallaladeva want to kill Amarendra Baahubali?",
+    "precision_at_5": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "ndcg_at_5": 1.0,
+    "token_f1": 0.5106382978723405,
+    "correctness": {
+      "score": 0.8,
+      "reason": "The answer correctly states that Bhallaladeva feared Baahubali would remain a threat to his power, which aligns with the reference. However, it omits the specific detail that Baahubali’s popularity among the people made him a threat, so it is not fully complete."
+    },
+    "faithfulness": {
+      "score": 1.0,
+      "reason": "The answer accurately reflects the supplied context, which states that Bhallaladeva feared Baahubali would remain a threat to his power and began planning his murder. No unsupported claims are present."
+    },
+    "relevance": {
+      "score": 0.95,
+      "reason": "The answer directly addresses the question by explaining that Bhallaladeva wanted to kill Amarendra Baahubali because he viewed him as a threat to his power and feared a potential challenge to his rule."
+    },
+    "source_support": {
+      "score": 1.0,
+      "reason": "The answer accurately reflects the claim that Bhallaladeva feared Baahubali would remain a threat to his power, which is directly supported by the source passage stating that Bhallaladeva realizes Baahubali is a potential threat and begins planning his murder."
+    }
+  },
+  {
+    "id": "test_002",
+    "question": "Why did Kattappa kill Amarendra Baahubali?",
+    "answer": "Kattappa killed Amarendra Baahubali because he was ordered to do so by the king, Sivagami, and he was bound by his oath and duty to the royal family.",
+    "latency_seconds": 2.159,
+    "retrieved_chunk_ids": [
+      "22",
+      "17",
+      "18",
+      "16",
+      "28"
+    ],
+    "sources": [
+      {
+        "page": 4,
+        "chunk_id": 22
+      },
+      {
+        "page": 3,
+        "chunk_id": 17
+      },
+      {
+        "page": 3,
+        "chunk_id": 18
+      },
+      {
+        "page": 3,
+        "chunk_id": 16
+      },
+      {
+        "page": 5,
+        "chunk_id": 28
+      }
+    ],
+    "search_query": "Why did Kattappa kill Amarendra Baahubali?",
+    "precision_at_5": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "ndcg_at_5": 1.0,
+    "token_f1": 0.8163265306122449,
+    "correctness": {
+      "score": 0.95,
+      "reason": "The generated answer accurately reflects the reference answer, stating that Kattappa killed Amarendra Baahubali because he was ordered to do so and was bound by his oath and duty to the royal family. It is factually correct and complete."
+    },
+    "faithfulness": {
+      "score": 1.0,
+      "reason": "All factual claims in the answer are directly supported by the supplied context."
+    },
+    "relevance": {
+      "score": 1.0,
+      "reason": "The answer directly states the reason Kattappa killed Amarendra Baahubali—he was ordered by the king and bound by his oath and duty—matching the reference answer and fully addressing the question."
+    },
+    "source_support": {
+      "score": 1.0,
+      "reason": "The answer accurately reflects the source passages, which state that Kattappa was ordered by Sivagami to kill Amarendra Baahubali and that he was bound by his oath and duty to the royal family."
+    }
+  },
+  {
+    "id": "test_003",
+    "question": "Who was Mahendra Baahubali?",
+    "answer": "Mahendra Baahubali is the son of Amarendra Baahubali.  Raised far from the palace as the ordinary young man Shivudu, he grows up unaware of his royal lineage.  After discovering his true identity, he returns to Mahishmati, defeats Bhallaladeva, frees his mother, and ultimately becomes the rightful ruler of the kingdom.",
+    "latency_seconds": 10.958,
+    "retrieved_chunk_ids": [
+      "19",
+      "29",
+      "1",
+      "28",
+      "26"
+    ],
+    "sources": [
+      {
+        "page": 4,
+        "chunk_id": 19
+      },
+      {
+        "page": 5,
+        "chunk_id": 29
+      },
+      {
+        "page": 1,
+        "chunk_id": 1
+      },
+      {
+        "page": 5,
+        "chunk_id": 28
+      },
+      {
+        "page": 5,
+        "chunk_id": 26
+      }
+    ],
+    "search_query": "Who was Mahendra Baahubali?",
+    "precision_at_5": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "ndcg_at_5": 1.0,
+    "token_f1": 0.4285714285714285,
+    "correctness": {
+      "score": 0.6,
+      "reason": "The answer correctly identifies Mahendra Baahubali as the son of Amarendra Baahubali and notes that he grew up as Shivudu unaware of his royal identity, matching the reference. However, it omits Devasena as his mother, which is a factual omission, and adds additional plot details (defeating Bhallaladeva, freeing his mother, becoming ruler) that are not present in the reference answer. Thus the answer is partially correct but incomplete."
+    },
+    "faithfulness": {
+      "score": 1.0,
+      "reason": "All factual claims in the answer are directly supported by the supplied context. The answer accurately states Mahendra Baahubali’s parentage, upbringing as Shivudu, ignorance of his lineage, discovery of identity, return to Mahishmati, defeat of Bhallaladeva, freeing of his mother, and ascension as rightful ruler, all of which are mentioned in the context excerpts."
+    },
+    "relevance": {
+      "score": 0.95,
+      "reason": "The answer directly identifies Mahendra Baahubali as the son of Amarendra Baahubali, explains his upbringing as Shivudu, and summarizes his later actions, all of which directly address the question."
+    },
+    "source_support": {
+      "score": 1.0,
+      "reason": "All factual claims in the answer are directly supported by the provided source passages. The answer correctly states that Mahendra Baahubali is the son of Amarendra Baahubali, that he grows up as Shivudu unaware of his royal lineage, that he discovers his identity, returns to Mahishmati, defeats Bhallaladeva, frees his mother, and becomes the rightful ruler. Each of these points is corroborated by the excerpts from Pages 1, 4, and 5."
+    }
+  }
+]

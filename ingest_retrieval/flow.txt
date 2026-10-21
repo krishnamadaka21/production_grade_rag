@@ -1,0 +1,5 @@
+1:ingest
+2:Dense_retrieval
+3:Keyword_retrieval
+4:Reciprocal_rank_Fusion
+5:Hybrid_retrieval
