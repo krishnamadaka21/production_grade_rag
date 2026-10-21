@@ -83,3 +83,6 @@ faiss_index/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+phases_not_used_in_current_project
+
